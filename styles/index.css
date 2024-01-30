@@ -13,7 +13,10 @@ body, html {
     position: relative;
 }
 h1{
-    font-weight: 500;
+    font-weight: normal;   
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 70px;
+    color: #4d3b2f;
 }
 .header_txt {
     text-align: center;
@@ -26,6 +29,9 @@ h1{
 
 /*Links*/
 li, a {
+    font-weight: 700;
+    font-family: 'Rufina', serif;
+    font-variant: small-caps;
     color: #6f6d6c;
 }
 s {
@@ -34,10 +40,37 @@ s {
 
 /*Paragraph Title*/
 #introduction_h2 {
+    font-weight: 700;
+    font-family: 'Rufina', serif;
+    font-size: 40px;
+    font-variant: small-caps;
     color: #644732;
 }
 
 /*Footer*/
 h5 {
+    font-weight: 700;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-style: italic;
     color: #37281e;
 }
+
+/*Week Pages*/
+    /*Heading Title*/
+    #week_1 {
+        font-weight: 700;
+        font-family: 'Rufina', serif;
+        font-size: 25px;
+        font-variant: small-caps;
+        color: #644732;
+    }
+
+    /*Return*/
+    button{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        letter-spacing: 2px;
+        background-color: #8f8882;    
+        color: #ffffff
+    }
