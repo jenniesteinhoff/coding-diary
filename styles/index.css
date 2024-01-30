@@ -32,7 +32,11 @@ li, a {
     font-weight: 700;
     font-family: 'Rufina', serif;
     font-variant: small-caps;
+    font-size: 16px;
     color: #6f6d6c;
+}
+.fa-bars {
+    margin: 2px 0px 0px 0px;
 }
 s {
     color: #c3bfbe;
@@ -64,6 +68,12 @@ h5 {
         font-size: 25px;
         font-variant: small-caps;
         color: #644732;
+    }
+
+    .fa-code {
+        margin: 9px 0px 0px -2px;
+        transform: scale(1.1, 1.2);
+        
     }
 
     /*Return*/
